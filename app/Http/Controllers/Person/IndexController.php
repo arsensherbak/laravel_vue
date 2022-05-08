@@ -12,6 +12,5 @@ class IndexController extends Controller
    public function __invoke(){
       $people = Person::all();
       return $people;
-
    }
 }
